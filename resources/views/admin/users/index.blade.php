@@ -8,14 +8,14 @@
     </div>
     {{-- header end --}}
 
-    {{-- form action start --}}
+    {{-- search bar start --}}
     <div class="mb-3">
         <form action="{{ route('users.index') }}" method="GET" class="d-flex gap-2" style="max-width:400px;">
             <input type="text" name="search" class="form-control" placeholder="Cari Nama atau Email...">
             <button type="submit" class="btn btn-secondary">Cari</button>
         </form>
     </div>
-    {{-- form action end --}}
+    {{-- search bar end --}}
 
     {{-- card start --}}
     <div class="card">
